@@ -1,0 +1,42 @@
+2020-03-25 11:13:29,298 (7f222e5e8700) :  INFO (core:349) - Starting framework core - Version: 2.6.3, Build: e106a8a (Tue Mar 24 21:12:49 UTC 2020)
+2020-03-25 11:13:29,380 (7f222e5e8700) :  DEBUG (core:361) - Using the standard policy
+2020-03-25 11:13:29,381 (7f222e5e8700) :  DEBUG (core:450) - Starting runtime component.
+2020-03-25 11:13:29,438 (7f222e5e8700) :  DEBUG (core:450) - Starting caching component.
+2020-03-25 11:13:29,438 (7f222e5e8700) :  DEBUG (core:450) - Starting data component.
+2020-03-25 11:13:29,439 (7f222e5e8700) :  DEBUG (core:450) - Starting networking component.
+2020-03-25 11:13:29,441 (7f222e5e8700) :  DEBUG (networking:265) - No cookie jar found
+2020-03-25 11:13:29,604 (7f222e5e8700) :  DEBUG (networking:428) - Setting the default network timeout to 20.0
+2020-03-25 11:13:29,608 (7f222e5e8700) :  DEBUG (core:450) - Starting localization component.
+2020-03-25 11:13:29,787 (7f222e5e8700) :  INFO (localization:409) - Setting the default locale to en-us
+2020-03-25 11:13:29,788 (7f222e5e8700) :  DEBUG (core:450) - Starting messaging component.
+2020-03-25 11:13:29,789 (7f222e5e8700) :  DEBUG (core:450) - Starting debugging component.
+2020-03-25 11:13:29,789 (7f222e5e8700) :  DEBUG (core:450) - Starting services component.
+2020-03-25 11:13:29,790 (7f222e5e8700) :  DEBUG (core:450) - Starting myplex component.
+2020-03-25 11:13:29,790 (7f222e5e8700) :  DEBUG (core:450) - Starting notifications component.
+2020-03-25 11:13:29,792 (7f220e7fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/com.plexapp.agents.htbackdrops'
+2020-03-25 11:13:29,974 (7f222e5e8700) :  DEBUG (accessor:68) - Creating a new model access point for provider com.plexapp.agents.htbackdrops in namespace 'metadata'
+2020-03-25 11:13:30,142 (7f222e5e8700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2020-03-25 11:13:30,644 (7f220e7fc700) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2020-03-25 11:13:30,644 (7f222e5e8700) :  DEBUG (runtime:1117) - Created a thread named 'load_all_services'
+2020-03-25 11:13:30,763 (7f222e5e8700) :  DEBUG (runtime:1117) - Created a thread named 'get_server_info'
+2020-03-25 11:13:30,772 (7f220e7fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2020-03-25 11:13:30,774 (7f220d7fa700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400'
+2020-03-25 11:13:30,776 (7f222e5e8700) :  DEBUG (core:150) - Finished starting framework core
+2020-03-25 11:13:30,777 (7f222e5e8700) :  DEBUG (core:560) - Loading plug-in code
+2020-03-25 11:13:30,819 (7f222e5e8700) :  DEBUG (core:566) - Finished loading plug-in code
+2020-03-25 11:13:30,913 (7f222e5e8700) :  DEBUG (messaging:69) - Exposing function ArtistSearch for remote access
+2020-03-25 11:13:30,915 (7f222e5e8700) :  DEBUG (agentkit:1128) - Creating new agent class called HTBDAgent
+2020-03-25 11:13:30,916 (7f220d7fa700) :  DEBUG (core:538) - Machine identifier is 2ed430253c10717cfe870f87e9a20d9e013ccebc
+2020-03-25 11:13:31,014 (7f222e5e8700) :  DEBUG (agentkit:933) - Updating agent information: [{'media_types': ['Artist'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.lastfm'], 'languages': ['ab', 'aa', 'af', 'ak', 'sq', 'am', 'ar', 'an', 'hy', 'as', 'av', 'ae', 'ay', 'az', 'bm', 'ba', 'eu', 'be', 'bn', 'bh', 'bi', 'bs', 'pb', 'br', 'bg', 'my', 'ca', 'ch', 'ce', 'ny', 'zh', 'cu', 'cv', 'kw', 'co', 'cr', 'hr', 'cs', 'da', 'dv', 'nl', 'dz', 'en', 'eo', 'et', 'ee', 'fo', 'fj', 'fi', 'fr', 'fy', 'ff', 'gd', 'gl', 'lg', 'ka', 'de', 'el', 'gn', 'gu', 'ht', 'ha', 'he', 'hz', 'hi', 'ho', 'hu', 'is', 'io', 'ig', 'id', 'ia', 'ie', 'iu', 'ik', 'ga', 'it', 'ja', 'jv', 'kl', 'kn', 'kr', 'ks', 'kk', 'km', 'ki', 'rw', 'ky', 'kv', 'kg', 'ko', 'kj', 'ku', 'lo', 'la', 'lv', 'li', 'ln', 'lt', 'lu', 'lb', 'mk', 'mg', 'ms', 'ml', 'mt', 'gv', 'mi', 'mr', 'mh', 'mo', 'mn', 'na', 'nv', 'ng', 'ne', 'xn', 'nd', 'no', 'nb', 'nn', 'oc', 'oj', 'or', 'om', 'os', 'pi', 'pa', 'fa', 'pl', 'pt', 'ps', 'qu', 'rm', 'ro', 'rn', 'ru', 'se', 'sm', 'sg', 'sa', 'sc', 'sr', 'sn', 'ii', 'sd', 'si', 'sk', 'sl', 'so', 'st', 'nr', 'es', 'su', 'sw', 'ss', 'sv', 'tl', 'ty', 'tg', 'ta', 'tt', 'te', 'th', 'bo', 'ti', 'to', 'ts', 'tn', 'tr', 'tk', 'tw', 'ug', 'uk', 'ur', 'uz', 've', 'vi', 'vo', 'wa', 'cy', 'wo', 'xh', 'yi', 'yo', 'za', 'zu'], 'persist_stored_files': True, 'version': 0, 'primary_provider': False, 'prefs': False, 'name': 'Home Theater Backdrops'}]
+2020-03-25 11:13:31,147 (7f220d7fa700) :  DEBUG (core:539) - Server version is 1.18.9.2571-e106a8a91
+2020-03-25 11:13:31,249 (7f220e7fc700) :  DEBUG (services:362) - Loaded services
+2020-03-25 11:13:31,259 (7f220dffb700) :  DEBUG (services:438) - No shared code to load
+2020-03-25 11:13:31,348 (7f222e5e8700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo2CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CjIKczMwCmNvbS5wbGV4YXBwLmFnZW50cy5odGJhY2tkcm9wc3MxMAppZGVudGlmaWVycjEKczEwCmFnZW50X2luZm8xCnIyCjEwCnIzCnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI0CnMxNApjb250cmlidXRlc190b3I1CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIwczE2CnByaW1hcnlfcHJvdmlkZXJiMHM1CnByZWZzczIyCkhvbWUgVGhlYXRlciBCYWNrZHJvcHNzNApuYW1lMQpzNgpBcnRpc3QxCnMyNQpjb20ucGxleGFwcC5hZ2VudHMubGFzdGZtMTg3CnMyCmFiczIKYWFzMgphZnMyCmFrczIKc3FzMgphbXMyCmFyczIKYW5zMgpoeXMyCmFzczIKYXZzMgphZXMyCmF5czIKYXpzMgpibXMyCmJhczIKZXVzMgpiZXMyCmJuczIKYmhzMgpiaXMyCmJzczIKcGJzMgpicnMyCmJnczIKbXlzMgpjYXMyCmNoczIKY2VzMgpueXMyCnpoczIKY3VzMgpjdnMyCmt3czIKY29zMgpjcnMyCmhyczIKY3NzMgpkYXMyCmR2czIKbmxzMgpkenMyCmVuczIKZW9zMgpldHMyCmVlczIKZm9zMgpmanMyCmZpczIKZnJzMgpmeXMyCmZmczIKZ2RzMgpnbHMyCmxnczIKa2FzMgpkZXMyCmVsczIKZ25zMgpndXMyCmh0czIKaGFzMgpoZXMyCmh6czIKaGlzMgpob3MyCmh1czIKaXNzMgppb3MyCmlnczIKaWRzMgppYXMyCmllczIKaXVzMgppa3MyCmdhczIKaXRzMgpqYXMyCmp2czIKa2xzMgprbnMyCmtyczIKa3NzMgpra3MyCmttczIKa2lzMgpyd3MyCmt5czIKa3ZzMgprZ3MyCmtvczIKa2pzMgprdXMyCmxvczIKbGFzMgpsdnMyCmxpczIKbG5zMgpsdHMyCmx1czIKbGJzMgpta3MyCm1nczIKbXNzMgptbHMyCm10czIKZ3ZzMgptaXMyCm1yczIKbWhzMgptb3MyCm1uczIKbmFzMgpudnMyCm5nczIKbmVzMgp4bnMyCm5kczIKbm9zMgpuYnMyCm5uczIKb2NzMgpvanMyCm9yczIKb21zMgpvc3MyCnBpczIKcGFzMgpmYXMyCnBsczIKcHRzMgpwc3MyCnF1czIKcm1zMgpyb3MyCnJuczIKcnVzMgpzZXMyCnNtczIKc2dzMgpzYXMyCnNjczIKc3JzMgpzbnMyCmlpczIKc2RzMgpzaXMyCnNrczIKc2xzMgpzb3MyCnN0czIKbnJzMgplc3MyCnN1czIKc3dzMgpzc3MyCnN2czIKdGxzMgp0eXMyCnRnczIKdGFzMgp0dHMyCnRlczIKdGhzMgpib3MyCnRpczIKdG9zMgp0c3MyCnRuczIKdHJzMgp0a3MyCnR3czIKdWdzMgp1a3MyCnVyczIKdXpzMgp2ZXMyCnZpczIKdm9zMgp3YXMyCmN5czIKd29zMgp4aHMyCnlpczIKeW9zMgp6YXMyCnp1cjAK'
+2020-03-25 11:13:31,614 (7f222e5e8700) :  INFO (core:611) - Started plug-in
+2020-03-25 11:13:31,615 (7f222e5e8700) :  DEBUG (socketinterface:160) - Starting socket server
+2020-03-25 11:13:31,617 (7f222e5e8700) :  DEBUG (runtime:1117) - Created a thread named 'start'
+2020-03-25 11:13:31,618 (7f222e5e8700) :  INFO (socketinterface:184) - Socket server started on port 33275
+2020-03-25 11:13:31,618 (7f222e5e8700) :  INFO (pipeinterface:25) - Entering run loop
+2020-03-25 11:13:31,618 (7f222e5e8700) :  DEBUG (runtime:717) - Handling request GET /:/prefixes
+2020-03-25 11:13:31,620 (7f222e5e8700) :  DEBUG (runtime:814) - Found route matching /:/prefixes
+2020-03-25 11:13:31,621 (7f222e5e8700) :  DEBUG (runtime:924) - Response: [200] MediaContainer, 155 bytes

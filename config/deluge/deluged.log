@@ -1,0 +1,412 @@
+11:02:25 [INFO    ][deluge.configmanager:52  ] Setting config directory to: /config
+11:02:26 [INFO    ][deluge.core.daemon            :94  ] Deluge daemon 2.0.3-2-201906121747-ubuntu18.04.1
+11:02:26 [INFO    ][deluge.core.core              :339 ] Successfully loaded session.state: /config/session.state
+11:02:26 [INFO    ][deluge.core.core              :339 ] Successfully loaded session.state: /config/session.state.bak
+11:02:26 [INFO    ][deluge.core.alertmanager      :148 ] Alert Queue Size set to 10000
+11:02:26 [INFO    ][deluge.core.rpcserver         :402 ] Starting DelugeRPC server localhost:58846
+11:02:26 [INFO    ][twisted                       :154 ] Factory (TLS) starting on 58846
+11:02:27 [INFO    ][twisted                       :154 ] Starting factory <twisted.internet.protocol.Factory object at 0x7fd307995978>
+11:02:27 [INFO    ][deluge.core.daemon            :154 ] Deluge daemon starting...
+11:02:27 [ERROR   ][deluge.component              :132 ] [Failure instance: Traceback: <class 'TypeError'>: No registered converter was able to produce a C++ rvalue of type int from this Python object of type str
+/usr/lib/python3/dist-packages/twisted/internet/base.py:1252:mainLoop
+/usr/lib/python3/dist-packages/twisted/internet/base.py:878:runUntilCurrent
+/usr/lib/python3/dist-packages/twisted/internet/defer.py:459:callback
+/usr/lib/python3/dist-packages/twisted/internet/defer.py:567:_startRunCallbacks
+--- <exception caught here> ---
+/usr/lib/python3/dist-packages/twisted/internet/defer.py:653:_runCallbacks
+/usr/lib/python3/dist-packages/twisted/internet/task.py:865:<lambda>
+/usr/lib/python3/dist-packages/deluge/core/preferencesmanager.py:162:start
+/usr/lib/python3/dist-packages/deluge/core/preferencesmanager.py:176:do_config_set_func
+/usr/lib/python3/dist-packages/deluge/core/preferencesmanager.py:458:_on_set_proxy
+/usr/lib/python3/dist-packages/deluge/core/core.py:249:apply_session_settings
+]
+11:02:27 [INFO    ][deluge.core.authmanager       :228 ] Opening auth for load: /config/auth
+11:02:27 [INFO    ][deluge.core.authmanager       :236 ] Successfully loaded auth: /config/auth
+11:02:27 [INFO    ][deluge.core.torrentmanager    :1609] on_alert_external_ip: 173.244.44.60
+11:02:27 [WARNING ][deluge.core.torrentmanager    :1162] Bad shutdown detected so archiving state files
+11:02:31 [INFO    ][deluge.core.torrentmanager    :806 ] Loading torrent state: /config/state/torrents.state
+11:02:31 [INFO    ][deluge.core.torrentmanager    :819 ] Successfully loaded /config/state/torrents.state
+11:02:31 [INFO    ][deluge.core.torrentmanager    :1066] Opening torrents.fastresume for load: /config/state/torrents.fastresume
+11:02:31 [INFO    ][deluge.core.torrentmanager    :1077] Successfully loaded torrents.fastresume: /config/state/torrents.fastresume
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/a7b0479d523fe70a9d95894462fdaf2b214f3052.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/c0966e2b3da335d7203fcbb8029485c0f96d2220.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/4337d6fe4dc25942b9d73b3123e708f6ce54adb6.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/2291c5b6548cb91baf9b08aaf062420030e5fc4a.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/53c30b3b7e9c9b7c5c0efc3de734dcde0d61e4af.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/87443e6a6aa976f230d0a45af3426e3ee110add8.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/adb86251c6423addab21b73ffb90e5400603a033.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/cb89124bf712e2640cce44f944bfe1f03e4bbf71.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/d92df5a43779907e5d7178a675367fa100233281.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/06f2bc91402c1e73eddcee3096e2543c22eaa231.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/0cb8e576082646a1f56c973319a93c983dfc2dbd.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/28352ae667a76026ab38596d1720c1cdb2caa713.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/61cb4417aa52a37c18e5718f633175e35bd29e39.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/2bd706e2f8538705cc783c74a2a405f5d5fe798d.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/4e87347fbb1f88458dfbfacff752502105b9374d.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/8de2a465f8b40d4dd4cdc0923d58d09a49cdd085.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/6ba054bdb762ec7024266c6199602a3176fc5153.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/faa72c67cb0a46a71c4b841e10e2c0a83229a5ff.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/dedc0d8603fb0b89e4418c64c98158eaa0e0a666.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/24089b53a1bfbec820239dbdbf5fb29686895990.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/ecc66d7e886d140686d518ee32c072ecdb54905d.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/4da580825d9c75f4ed667ee2f65cebefb14ff50b.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/e8787849cf664ee53a199e2caeac18d064756b59.torrent: No such file or directory
+11:02:31 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/479059cea21aa3f00b0b60a1caeb0cc8977c0178.torrent: No such file or directory
+11:02:32 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/0ec9a9f05d2729d5cc2f228bc6f7d8f3e5c5ce93.torrent: No such file or directory
+11:02:32 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/2b1478b01b693036ac955104049f443e15eeacca.torrent: No such file or directory
+11:02:32 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/483cc3340daadfffbf859a4fb77a4ae71786727c.torrent: No such file or directory
+11:02:32 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/66660ea37001c780f10f198742daf582739dc33d.torrent: No such file or directory
+11:02:32 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/e3b4f159f862ed8880e76213e617e80eaa76d078.torrent: No such file or directory
+11:02:32 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/d26ce57934f584a5a7be38e30bf5bc79eeac7d3e.torrent: No such file or directory
+11:02:32 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/e5d8a939d6bc6fafa3220ff6f1e8c533c7eaf29b.torrent: No such file or directory
+11:02:32 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/874ee174735f075c329b3847979b8ddf54976dca.torrent: No such file or directory
+11:02:32 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/18c2f8f9b9a267bdd113ff4a924d8e51a5116bda.torrent: No such file or directory
+11:02:32 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/fdb9d1bcd14038b0e8572d24e99c79b353da5db3.torrent: No such file or directory
+11:02:32 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/ac5d98adc1f8e84e2d7d25ae06e31707b019ab54.torrent: No such file or directory
+11:02:32 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/b7e15a36ecd2c05d455b2edcc59e8be9c2c59aca.torrent: No such file or directory
+11:02:32 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/217c70817e653cfda01a1d25a4f2ce63e9a2f435.torrent: No such file or directory
+11:02:32 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/2cfcba8dd0f0a88d6ff2e44e9c24924861ffece2.torrent: No such file or directory
+11:02:32 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/32afed4a90bf13171304a60ec203ed03873ea88e.torrent: No such file or directory
+11:02:32 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/d1cfa3649c4cc84bad50948eedfafd39fc5a8a27.torrent: No such file or directory
+11:02:32 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/a6bc9628a0ed857e1d466140cd5a43dfae50d900.torrent: No such file or directory
+11:02:32 [WARNING ][deluge.core.torrentmanager    :338 ] Unable to open torrent file /config/state/18efee84cf0752194df156beba22ce9b3aa64b39.torrent: No such file or directory
+11:02:32 [INFO    ][deluge.core.rpcserver         :171 ] Deluge Client connection made from: 127.0.0.1:60434
+11:02:32 [INFO    ][deluge.core.rpcserver         :171 ] Deluge Client connection made from: 127.0.0.1:60436
+11:02:32 [INFO    ][deluge.core.rpcserver         :171 ] Deluge Client connection made from: 127.0.0.1:60472
+11:02:32 [INFO    ][deluge.core.rpcserver         :171 ] Deluge Client connection made from: 127.0.0.1:60478
+11:02:32 [CRITICAL][twisted                       :154 ] Unhandled error in Deferred:
+11:02:32 [CRITICAL][deluge.log                    :93  ] twisted.internet.defer 
+[Failure instance: Traceback: <class 'TypeError'>: No registered converter was able to produce a C++ rvalue of type int from this Python object of type str
+/usr/lib/python3/dist-packages/twisted/internet/base.py:1252:mainLoop
+/usr/lib/python3/dist-packages/twisted/internet/base.py:878:runUntilCurrent
+/usr/lib/python3/dist-packages/twisted/internet/defer.py:459:callback
+/usr/lib/python3/dist-packages/twisted/internet/defer.py:567:_startRunCallbacks
+--- <exception caught here> ---
+/usr/lib/python3/dist-packages/twisted/internet/defer.py:653:_runCallbacks
+/usr/lib/python3/dist-packages/twisted/internet/task.py:865:<lambda>
+/usr/lib/python3/dist-packages/deluge/core/preferencesmanager.py:162:start
+/usr/lib/python3/dist-packages/deluge/core/preferencesmanager.py:176:do_config_set_func
+/usr/lib/python3/dist-packages/deluge/core/preferencesmanager.py:458:_on_set_proxy
+/usr/lib/python3/dist-packages/deluge/core/core.py:249:apply_session_settings
+]
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S02E17.720p.HDTV.x264-W4F[rarbg] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S02E23.720p.HDTV.x264-W4F[rarbg] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S02E24.720p.HDTV.x264-W4F[rarbg] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S02E18.HDTV.x264-W4F[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S03E14.REPACK.720p.HDTV.x264-W4F[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S03E01.720p.HDTV.x264-W4F[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S03E02.720p.HDTV.x264-W4F[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S03E03.720p.HDTV.x264-W4F[eztv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S03E04.720p.HDTV.x264-W4F[eztv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S03E05.720p.HDTV.x264-W4F[eztv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S03E06.720p.HDTV.x264-W4F[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S03E07.720p.HDTV.x264-W4F[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S03E08.720p.HDTV.x264-W4F[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S03E09.720p.HDTV.x264-W4F[eztv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S03E10.720p.HDTV.x264-W4F[eztv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S03E11.720p.HDTV.x264-W4F[eztv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S03E12.720p.HDTV.x264-W4F[eztv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S03E13.720p.HDTV.x264-W4F[eztv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S03E15.720p.HDTV.x264-W4F[eztv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S03E16.720p.HDTV.x264-W4F[eztv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S03E17.720p.HDTV.x264-W4F[eztv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S04E11.REAL.1080p.WEB.x264-TBS[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S04E01.1080p.WEB.X264-INFLATE from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S04E02.1080p.WEB.X264-INFLATE[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S04E03.1080p.WEB.X264-INFLATE[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S04E05.1080p.WEB.X264-INFLATE[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S04E06.1080p.WEB.X264-INFLATE[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S04E07.1080p.WEB.X264-INFLATE[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S04E09.INTERNAL.1080p.WEB.X264-INFLATE[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S04E14.1080p.WEB.X264-INFLATE[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S04E15.1080p.WEB.X264-INFLATE from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S04E16.1080p.WEB.X264-INFLATE from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S04E13.REAL.720p.HDTV.x264-W4F[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S04E04.720p.HDTV.x264-W4F[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S04E08.720p.HDTV.x264-LucidTV[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The Carbonaro Effect S04E12 REAL HDTV x264-W4F [eztv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S05E03.PROPER.1080p.WEB.x264-KOMPOST[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S05E01.1080p.WEB.x264-TBS[TGx] ⭐ from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S05E02.1080p.WEB.x264-TBS[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S05E04.1080p.WEB.x264-TBS[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S05E05.1080p.WEB.x264-TBS[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S05E06.1080p.WEB.x264-TBS[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S05E07.1080p.WEB.x264-TBS[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent The.Carbonaro.Effect.S05E08.720p.HDTV.x264-W4F[rartv] from user "localclient" loaded
+11:02:32 [INFO    ][deluge.core.torrentmanager    :885 ] Finished loading 45 torrents in 0:00:01.300619
+11:02:32 [INFO    ][deluge.core.rpcserver         :197 ] Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+11:02:32 [INFO    ][deluge.core.rpcserver         :197 ] Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+11:02:32 [INFO    ][deluge.core.rpcserver         :197 ] Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+16:27:04 [INFO    ][deluge.core.torrentmanager    :1609] on_alert_external_ip: 173.244.44.62
+08:49:16 [INFO    ][deluge.core.torrentmanager    :672 ] Torrent Power.Of.Grayskull.The.Definitive.History.Of.He-Man.And.The.Masters.Of.The.Universe.1080p.HEVC.x265-24GST from user "localclient" added
+08:59:02 [ERROR   ][deluge.core.torrent           :1238] Could not move storage for torrent 0bd8a25de220b8367fb7921d76a2f3d5a5214c8c since downloads/complete does not exist and could not create the directory: [Errno 13] Permission denied: 'downloads'
+09:24:09 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:24:10 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:25 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:26 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:27 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:28 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:29 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:30 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:31 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:32 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:33 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:34 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:35 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:36 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:37 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:38 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:39 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:40 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:41 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:42 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:43 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:44 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:45 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:46 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:47 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:48 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:49 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:50 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:51 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:52 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:53 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:54 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:55 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:56 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:57 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:58 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:27:59 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:00 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:01 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:02 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:03 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:04 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:05 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:06 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:07 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:08 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:09 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:10 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:11 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:12 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:13 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:14 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:15 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:16 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:17 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:18 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:19 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:20 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:21 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:22 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:23 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:24 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:25 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:26 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:27 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:28 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:29 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:30 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:31 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:32 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:33 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:34 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:35 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:36 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:37 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:38 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:39 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:40 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:41 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:42 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:43 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:44 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:45 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:46 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:47 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:48 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:49 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:50 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:51 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:52 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:53 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:54 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:55 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:56 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:57 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:58 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:28:59 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:00 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:01 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:02 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:03 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:04 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:05 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:06 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:07 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:08 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:09 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:10 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:11 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:12 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:13 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:14 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:15 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:16 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:17 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:18 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:19 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:20 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:21 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:22 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:23 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:24 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:25 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:26 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:27 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:28 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:29 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:30 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:31 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:32 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:33 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:34 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:35 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:36 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:37 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:38 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:39 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:40 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:41 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:42 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:43 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:44 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:45 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:46 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:52 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:53 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:54 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:55 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:56 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:57 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:58 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:29:59 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:00 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:01 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:02 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:03 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:04 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:05 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:06 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:07 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:08 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:09 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:10 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:11 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:12 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:13 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:14 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:15 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:16 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:17 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:18 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:19 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:20 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:21 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:22 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:23 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:24 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:25 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:26 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:27 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:28 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:29 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:30 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:31 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:32 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:33 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:34 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:35 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:36 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:37 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:38 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:39 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:40 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:41 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:42 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:43 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:44 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:45 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:46 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:47 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:48 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:49 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:50 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:51 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:52 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:53 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:54 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:55 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:56 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:57 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:58 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:30:59 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:00 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:01 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:02 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:03 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:04 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:05 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:06 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:07 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:08 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:09 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:10 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:11 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:12 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:13 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:14 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:15 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:16 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:17 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:18 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:19 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:20 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:21 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:29 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:30 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:31 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:32 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:33 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:34 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:35 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:36 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:37 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:38 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:39 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:40 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:41 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:42 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:43 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:44 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:45 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:46 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:47 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:48 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:49 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:50 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:51 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:52 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:53 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:54 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:55 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:56 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:57 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:58 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:31:59 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:32:00 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:32:01 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:32:02 [WARNING ][deluge.core.torrentmanager    :1617] on_alert_performance: The.Carbonaro.Effect.S02E26.720p.HDTV.x264-W4F[rarbg]: performance warning: max outstanding piece requests reached, outstanding_request_limit_reached
+09:32:03 [ERROR   ][deluge.core.torrent           :1238] Could not move storage for torrent a7b0479d523fe70a9d95894462fdaf2b214f3052 since downloads/complete does not exist and could not create the directory: [Errno 13] Permission denied: 'downloads'

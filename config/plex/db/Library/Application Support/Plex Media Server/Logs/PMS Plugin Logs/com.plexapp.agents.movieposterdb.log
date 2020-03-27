@@ -1,0 +1,41 @@
+2020-03-25 11:13:32,645 (7ff14760d700) :  INFO (core:349) - Starting framework core - Version: 2.6.3, Build: e106a8a (Tue Mar 24 21:12:49 UTC 2020)
+2020-03-25 11:13:32,645 (7ff14760d700) :  DEBUG (core:361) - Using the standard policy
+2020-03-25 11:13:32,646 (7ff14760d700) :  DEBUG (core:450) - Starting runtime component.
+2020-03-25 11:13:32,651 (7ff14760d700) :  DEBUG (core:450) - Starting caching component.
+2020-03-25 11:13:32,769 (7ff14760d700) :  DEBUG (core:450) - Starting data component.
+2020-03-25 11:13:32,770 (7ff14760d700) :  DEBUG (core:450) - Starting networking component.
+2020-03-25 11:13:32,771 (7ff14760d700) :  DEBUG (networking:265) - No cookie jar found
+2020-03-25 11:13:33,037 (7ff14760d700) :  DEBUG (networking:428) - Setting the default network timeout to 20.0
+2020-03-25 11:13:33,040 (7ff14760d700) :  DEBUG (core:450) - Starting localization component.
+2020-03-25 11:13:33,040 (7ff14760d700) :  INFO (localization:409) - Setting the default locale to en-us
+2020-03-25 11:13:33,041 (7ff14760d700) :  DEBUG (core:450) - Starting messaging component.
+2020-03-25 11:13:33,043 (7ff14760d700) :  DEBUG (core:450) - Starting debugging component.
+2020-03-25 11:13:33,044 (7ff14760d700) :  DEBUG (core:450) - Starting services component.
+2020-03-25 11:13:33,160 (7ff14760d700) :  DEBUG (core:450) - Starting myplex component.
+2020-03-25 11:13:33,186 (7ff14760d700) :  DEBUG (core:450) - Starting notifications component.
+2020-03-25 11:13:33,297 (7ff11f7fe700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/com.plexapp.agents.movieposterdb'
+2020-03-25 11:13:33,371 (7ff14760d700) :  DEBUG (accessor:68) - Creating a new model access point for provider com.plexapp.agents.movieposterdb in namespace 'metadata'
+2020-03-25 11:13:33,747 (7ff14760d700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2020-03-25 11:13:33,989 (7ff14760d700) :  DEBUG (runtime:1117) - Created a thread named 'load_all_services'
+2020-03-25 11:13:33,989 (7ff11f7fe700) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2020-03-25 11:13:34,106 (7ff14760d700) :  DEBUG (runtime:1117) - Created a thread named 'get_server_info'
+2020-03-25 11:13:34,191 (7ff11f7fe700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2020-03-25 11:13:34,192 (7ff11e7fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400'
+2020-03-25 11:13:34,193 (7ff14760d700) :  DEBUG (core:150) - Finished starting framework core
+2020-03-25 11:13:34,195 (7ff14760d700) :  DEBUG (core:560) - Loading plug-in code
+2020-03-25 11:13:34,468 (7ff14760d700) :  DEBUG (core:566) - Finished loading plug-in code
+2020-03-25 11:13:34,468 (7ff11e7fc700) :  DEBUG (core:538) - Machine identifier is 2ed430253c10717cfe870f87e9a20d9e013ccebc
+2020-03-25 11:13:34,532 (7ff14760d700) :  DEBUG (agentkit:1128) - Creating new agent class called CineMaterialAgent
+2020-03-25 11:13:34,533 (7ff11e7fc700) :  DEBUG (core:539) - Server version is 1.18.9.2571-e106a8a91
+2020-03-25 11:13:34,536 (7ff11f7fe700) :  DEBUG (services:362) - Loaded services
+2020-03-25 11:13:34,649 (7ff14760d700) :  DEBUG (agentkit:933) - Updating agent information: [{'media_types': ['Movie'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.imdb'], 'languages': ['xn'], 'persist_stored_files': True, 'version': 0, 'primary_provider': False, 'prefs': False, 'name': 'CineMaterial'}]
+2020-03-25 11:13:34,661 (7ff11effd700) :  DEBUG (services:438) - No shared code to load
+2020-03-25 11:13:34,743 (7ff14760d700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo2CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CjIKczMyCmNvbS5wbGV4YXBwLmFnZW50cy5tb3ZpZXBvc3RlcmRiczEwCmlkZW50aWZpZXJyMQpzMTAKYWdlbnRfaW5mbzEKcjIKMTAKcjMKczExCm1lZGlhX3R5cGVzbnMxMgphY2NlcHRzX2Zyb21uczE0CmZhbGxiYWNrX2FnZW50cjQKczE0CmNvbnRyaWJ1dGVzX3RvcjUKczkKbGFuZ3VhZ2VzYjFzMjAKcGVyc2lzdF9zdG9yZWRfZmlsZXNpMApzNwp2ZXJzaW9uYjBzMTYKcHJpbWFyeV9wcm92aWRlcmIwczUKcHJlZnNzMTIKQ2luZU1hdGVyaWFsczQKbmFtZTEKczUKTW92aWUxCnMyMwpjb20ucGxleGFwcC5hZ2VudHMuaW1kYjEKczIKeG5yMAo_'
+2020-03-25 11:13:34,997 (7ff14760d700) :  INFO (core:611) - Started plug-in
+2020-03-25 11:13:34,998 (7ff14760d700) :  DEBUG (socketinterface:160) - Starting socket server
+2020-03-25 11:13:35,000 (7ff14760d700) :  DEBUG (runtime:1117) - Created a thread named 'start'
+2020-03-25 11:13:35,095 (7ff14760d700) :  INFO (socketinterface:184) - Socket server started on port 39787
+2020-03-25 11:13:35,096 (7ff14760d700) :  INFO (pipeinterface:25) - Entering run loop
+2020-03-25 11:13:35,096 (7ff14760d700) :  DEBUG (runtime:717) - Handling request GET /:/prefixes
+2020-03-25 11:13:35,100 (7ff14760d700) :  DEBUG (runtime:814) - Found route matching /:/prefixes
+2020-03-25 11:13:35,101 (7ff14760d700) :  DEBUG (runtime:924) - Response: [200] MediaContainer, 157 bytes

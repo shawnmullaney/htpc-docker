@@ -1,0 +1,23 @@
+Mar 27, 2020 09:51:28.622 [0x7f51e6875700] INFO - Plex Media Scanner v1.18.9.2571-e106a8a91 - Docker Docker Container x86_64 - build: linux-x86_64 - GMT -07:00
+Mar 27, 2020 09:51:28.623 [0x7f51e6875700] INFO - Linux version: 5.5.11-arch1-1, language: C
+Mar 27, 2020 09:51:28.623 [0x7f51e6875700] INFO - Processor        Intel(R) Xeon(R) CPU E5-2630 0 @ 2.30GHz
+Mar 27, 2020 09:51:28.623 [0x7f51e6875700] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --scan --refresh --section 4 --activity 25024183-cc31-48d9-8372-a99b210301c4
+Mar 27, 2020 09:51:28.620 [0x7f51eef86740] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.26.0, threadsafe=1
+Mar 27, 2020 09:51:28.758 [0x7f51eef86740] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/25024183-cc31-48d9-8372-a99b210301c4?percentComplete=0
+Mar 27, 2020 09:51:28.758 [0x7f51e5d6f700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=4&sinceTime=1585326688
+Mar 27, 2020 09:51:28.759 [0x7f51eef86740] DEBUG - HTTP 200 response from PUT http://127.0.0.1:32400/activities/25024183-cc31-48d9-8372-a99b210301c4?percentComplete=0
+Mar 27, 2020 09:51:28.759 [0x7f51eef86740] DEBUG - Scanning Movies using en(Plex Movie Scanner) with 0 current media items and 1 section locations in the database...
+Mar 27, 2020 09:51:28.759 [0x7f51e5d6f700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=4&sinceTime=1585326688
+Mar 27, 2020 09:51:28.856 [0x7f51eef86740] DEBUG - Performing a scan with 'Plex Movie Scanner' (language: en virtual: 0).
+Mar 27, 2020 09:51:28.856 [0x7f51eef86740] DEBUG -   * Scanning /config/Library/Complete/Movies
+Mar 27, 2020 09:51:28.856 [0x7f51eef86740] DEBUG -   * Marking media not available in /config/Library/Complete/Movies
+Mar 27, 2020 09:51:28.856 [0x7f51eef86740] DEBUG -   * Taking 0 items out of the map (which has 0 items) for being unavailable.
+Mar 27, 2020 09:51:28.856 [0x7f51eef86740] DEBUG -   * Taking 0 directories out of the map (which has 0 dirs) for being unavailable.
+Mar 27, 2020 09:51:28.857 [0x7f51eef86740] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/25024183-cc31-48d9-8372-a99b210301c4?percentComplete=99.000000
+Mar 27, 2020 09:51:28.858 [0x7f51eef86740] DEBUG - HTTP 200 response from PUT http://127.0.0.1:32400/activities/25024183-cc31-48d9-8372-a99b210301c4?percentComplete=99.000000
+Mar 27, 2020 09:51:28.858 [0x7f51eef86740] DEBUG - Removing 0 media items that were left.
+Mar 27, 2020 09:51:28.858 [0x7f51eef86740] DEBUG - Removing 0 directories that were left.
+Mar 27, 2020 09:51:28.858 [0x7f51eef86740] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/25024183-cc31-48d9-8372-a99b210301c4?percentComplete=100
+Mar 27, 2020 09:51:28.859 [0x7f51eef86740] DEBUG - HTTP 200 response from PUT http://127.0.0.1:32400/activities/25024183-cc31-48d9-8372-a99b210301c4?percentComplete=100
+Mar 27, 2020 09:51:28.859 [0x7f51eef86740] DEBUG - Refreshing section 4 of type: 1
+Mar 27, 2020 09:51:28.860 [0x7f51df709700] DEBUG - Refreshing 0 IDs.
