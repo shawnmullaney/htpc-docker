@@ -39,7 +39,8 @@ services:
     container_name: jackett
     image: linuxserver/jackett
     restart: unless-stopped
-    network_mode: host
+#    network_mode: host
+    network_mode: service:vpn # run on the vpn network
     environment:
       - PUID=${PUID} # default user id, defined in .env
       - PGID=${PGID} # default group id, defined in .env
@@ -54,7 +55,8 @@ services:
     container_name: nzbget
     image: linuxserver/nzbget
     restart: unless-stopped
-    network_mode: host
+#    network_mode: host
+    network_mode: service:vpn # run on the vpn network
     environment:
       - PUID=${PUID} # default user id, defined in .env
       - PGID=${PGID} # default group id, defined in .env
@@ -70,7 +72,8 @@ services:
     restart: unless-stopped
     environment:
       - TZ=${TZ} # timezone, defined in .env
-    network_mode: host
+#    network_mode: host
+    network_mode: service:vpn # run on the vpn network
     volumes:
       - ${ROOT}/config/plex/db:/config # plex database
       - ${ROOT}/config/plex/transcode:/transcode # temp transcoded files
@@ -81,7 +84,8 @@ services:
     container_name: sonarr
     image: linuxserver/sonarr
     restart: unless-stopped
-    network_mode: host
+ #   network_mode: host
+    network_mode: service:vpn # run on the vpn network
     environment:
       - PUID=${PUID} # default user id, defined in .env
       - PGID=${PGID} # default group id, defined in .env
@@ -97,7 +101,8 @@ services:
     container_name: radarr
     image: linuxserver/radarr
     restart: unless-stopped
-    network_mode: host
+#    network_mode: host
+    network_mode: service:vpn # run on the vpn network
     environment:
       - PUID=${PUID} # default user id, defined in .env
       - PGID=${PGID} # default group id, defined in .env
@@ -108,3 +113,19 @@ services:
       - ${ROOT}/complete/movies:/movies # movies folder
       - ${ROOT}/downloads:/downloads # download folder
 
+
+version: "2"
+services:
+  nextcloud:
+    image: linuxserver/nextcloud
+    container_name: nextcloud
+    environment:
+      - PUID=${PUID} # default user id, defined in .env
+      - PGID=${PGID} # default group id, defined in .env
+      - TZ=${TZ} # timezone, defined in .env
+    volumes:
+      - ${ROOT}/config/nextcloud:/config
+      - ${ROOT}/nextcloud-data:/data
+    ports:
+      - 443:443
+    restart: unless-stopped
